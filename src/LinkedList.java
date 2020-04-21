@@ -19,7 +19,7 @@ public class LinkedList {
             while(n!=null){
                 //JOptionPane.showMessageDialog(null, "See the console for students list.", "Linked List", JOptionPane.INFORMATION_MESSAGE);
                 System.out.println("ID(학번): "+n.getStudent().getId());
-                System.out.println("Name: "+n.getStudent().getName());
+                System.out.println("이름: "+n.getStudent().getName());
                 System.out.println("Age: "+n.getStudent().getAge());
                 System.out.println("Program: "+n.getStudent().getProgram());
                 System.out.println("************");
