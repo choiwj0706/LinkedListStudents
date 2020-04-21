@@ -22,7 +22,7 @@ public class LinkedList {
                 System.out.println("Name: "+n.getStudent().getName());
                 System.out.println("Age: "+n.getStudent().getAge());
                 System.out.println("Program: "+n.getStudent().getProgram());
-                System.out.println("↓↓↓↓↓↓↓↓↓↓↓↓");
+                System.out.println("************");
                 n = n.getLink();
             }
             System.out.println("\n\n");
