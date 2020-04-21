@@ -1,5 +1,5 @@
 /**
- * Created by Santiago on 8/25/17.
+ * Changed by choiwj 2020.04.21
  */
 import javax.swing.*;
 public class LinkedList {
