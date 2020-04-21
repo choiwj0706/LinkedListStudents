@@ -30,7 +30,7 @@ public class Main {
                             break;
                         case 1:
                             String id = JOptionPane.showInputDialog(null, "ID(학번)을 입력하세요.", "Add Student", JOptionPane.INFORMATION_MESSAGE);
-                            String name = JOptionPane.showInputDialog(null, "Enter name", "Add Student", JOptionPane.INFORMATION_MESSAGE);
+                            String name = JOptionPane.showInputDialog(null, "이름을 입력하세요.", "Add Student", JOptionPane.INFORMATION_MESSAGE);
                             int age = Integer.parseInt(JOptionPane.showInputDialog(null, "Enter age", "Add Student", JOptionPane.INFORMATION_MESSAGE));
                             String program = JOptionPane.showInputDialog(null, "Enter program", "Add Student", JOptionPane.INFORMATION_MESSAGE);
                             Student student = new Student(id, name, age, program);
