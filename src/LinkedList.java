@@ -22,6 +22,7 @@ public class LinkedList {
                 System.out.println("이름: "+n.getStudent().getName());
                 System.out.println("나이: "+n.getStudent().getAge());
                 System.out.println("학과: "+n.getStudent().getProgram());
+                System.out.println("점수: "+n.getStudent().getScore());
                 System.out.println("************");
                 n = n.getLink();
             }
