@@ -41,7 +41,7 @@ public class Main {
                             break;
 
                         case 3:
-                            String deleteId = JOptionPane.showInputDialog(null, "Enter Student ID to delete", "Delete Student", JOptionPane.INFORMATION_MESSAGE);
+                            String deleteId = JOptionPane.showInputDialog(null, "삭제할 학생의 학번을 입력하세요.", "Delete Student", JOptionPane.INFORMATION_MESSAGE);
                             linkedList.deleteStudent(deleteId);
                             break;
 
