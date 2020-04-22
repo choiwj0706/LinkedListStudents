@@ -12,7 +12,7 @@ public class Main {
         option_list.append("1 => 학생 등록\n");
         option_list.append("2 => 학생 리스트\n");
         option_list.append("3 => 리스트에서 삭제\n");
-        option_list.append("0 => Exit");
+        option_list.append("0 => 종료");
         /*System.out.println("********************************");
         System.out.println("Enter option");
         System.out.println("1 => Add student");
