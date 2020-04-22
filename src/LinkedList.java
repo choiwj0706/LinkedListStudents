@@ -11,7 +11,7 @@ public class LinkedList {
 
     public void showList(){
         if(this.head == null){
-            JOptionPane.showMessageDialog(null, "The list is empty", "Message", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "리스트에 학생이 존재하지 않습니다.", "Message", JOptionPane.INFORMATION_MESSAGE);
         }else{
             Node n = head;
             System.out.println("Student List");
