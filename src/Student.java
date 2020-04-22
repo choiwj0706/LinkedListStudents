@@ -6,8 +6,9 @@ public class Student {
     private String name;
     private Integer age;
     private String program;
+    private Integer score;
 
-    public Student(String id, String name, Integer age, String program) {
+    public Student(String id, String name, Integer age, String program, Integer score) {
         this.id = id;
         this.name = name;
         this.age = age;
@@ -44,5 +45,11 @@ public class Student {
 
     public void setProgram(String program) {
         this.program = program;
+    }
+    public Integer getScore() {
+    	return score;
+    }
+    public void setScore(Integer score) {
+    	this.score = score;
     }
 }
