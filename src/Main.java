@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         LinkedList linkedList = new LinkedList();
         StringBuilder option_list = new StringBuilder();
-        option_list.append("1 => Add student\n");
+        option_list.append("1 => 학생 등록\n");
         option_list.append("2 => Show list\n");
         option_list.append("3 => Delete student\n");
         option_list.append("0 => Exit");
