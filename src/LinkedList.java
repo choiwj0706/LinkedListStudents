@@ -15,6 +15,7 @@ public class LinkedList {
         }else{
             Node n = head;
             System.out.println("학생 리스트");
+            System.out.println("*          *");
             System.out.println("************");
             while(n!=null){
                 //JOptionPane.showMessageDialog(null, "See the console for students list.", "Linked List", JOptionPane.INFORMATION_MESSAGE);
