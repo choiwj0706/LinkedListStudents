@@ -33,7 +33,7 @@ public class Main {
                             String name = JOptionPane.showInputDialog(null, "이름을 입력하세요.", "Add Student", JOptionPane.INFORMATION_MESSAGE);
                             int age = Integer.parseInt(JOptionPane.showInputDialog(null, "나이를 입력하세요.", "Add Student", JOptionPane.INFORMATION_MESSAGE));
                             String program = JOptionPane.showInputDialog(null, "학과를 입력하세요.", "Add Student", JOptionPane.INFORMATION_MESSAGE);
-                            String score = JOptionPane.showInputDialog(JOptionPane.showInputDialog(null, "점수를 입력하세요.", "Add Student", JOptionPane.INFORMATION_MESSAGE));
+                            int score = Integer.parseInt(JOptionPane.showInputDialog(null, "점수를 입력하세요.", "Add Student", JOptionPane.INFORMATION_MESSAGE));
                             Student student = new Student(id, name, age, program, score);
                             linkedList.insertAtTheEnd(student);
                             break;
