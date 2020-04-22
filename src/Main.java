@@ -11,7 +11,7 @@ public class Main {
         StringBuilder option_list = new StringBuilder();
         option_list.append("1 => 학생 등록\n");
         option_list.append("2 => 학생 리스트\n");
-        option_list.append("3 => Delete student\n");
+        option_list.append("3 => 리스트에서 삭제\n");
         option_list.append("0 => Exit");
         /*System.out.println("********************************");
         System.out.println("Enter option");
