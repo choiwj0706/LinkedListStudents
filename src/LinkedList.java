@@ -46,7 +46,7 @@ public class LinkedList {
 
     public void deleteStudent(String id){
         if(this.head == null){
-            JOptionPane.showMessageDialog(null, "The list is empty", "Message", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "해당 리스트가 비었습니다.", "Message", JOptionPane.INFORMATION_MESSAGE);
         }else{
             Node n = head;
             Node anterior = head;
