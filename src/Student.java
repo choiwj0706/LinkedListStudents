@@ -1,5 +1,5 @@
 /**
- * Created by Santiago on 8/25/17.
+ * Changed by choiwj 2020.4.22
  */
 public class Student {
     private String id;
