@@ -14,7 +14,7 @@ public class LinkedList {
             JOptionPane.showMessageDialog(null, "리스트에 학생이 존재하지 않습니다.", "Message", JOptionPane.INFORMATION_MESSAGE);
         }else{
             Node n = head;
-            System.out.println("Student List");
+            System.out.println("학생 리스트");
             System.out.println("************");
             while(n!=null){
                 //JOptionPane.showMessageDialog(null, "See the console for students list.", "Linked List", JOptionPane.INFORMATION_MESSAGE);
